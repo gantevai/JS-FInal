@@ -1,0 +1,3 @@
+const RESIZE_CONSTRAINTS = { MIN_SIZE: 20 };
+
+export default RESIZE_CONSTRAINTS;

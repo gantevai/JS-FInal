@@ -1,0 +1,46 @@
+.main-container {
+  width: 100%;
+  background-color: black;
+}
+
+.aligned-wrapper {
+  width: 80.25em;
+  padding: 10px 15px;
+  min-width: 1200px;
+}
+
+.menu-container {
+  background-color: gray;
+}
+
+.editing-window {
+  background-color: yellow;
+}
+
+.tools-container {
+  width: 18%;
+  background-color: green;
+  height: 1000px;
+  float: left;
+}
+
+.editing-container {
+  width: 80%;
+  background-color: blue;
+  height: 1000px;
+  float: right;
+}
+
+.filter-container {
+  background-color: red;
+  width: 100%;
+}
+
+.clear-fix:before,
+.clear-fix:after {
+  content: '';
+  display: table;
+}
+.clear-fix:after {
+  clear: both;
+}

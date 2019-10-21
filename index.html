@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resizers.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="menu-container">
+        <div class="aligned-wrapper clear-fix">
+          <ul class="menu-bar">
+            <li><a href="#" id="uploadBtn">Upload</a></li>
+            <input style="display: none;" type="file" id="fileInputBtn" />
+            <li><a href="#">Save</a></li>
+            <li><a href="#" id="resizeBtn">Resize</a></li>
+            <li><a href="#" id="cropBtn">Crop</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="editing-window">
+        <div class="aligned-wrapper clear-fix">
+          <div class="tools-container"></div>
+          <div class="editing-container" id="editing-container"></div>
+        </div>
+      </div>
+      <div class="filter-container">
+        <div class="aligned-wrapper clear-fix"></div>
+      </div>
+    </div>
+
+    <script type="module" src="js/upload.js"></script>
+  </body>
+</html>
